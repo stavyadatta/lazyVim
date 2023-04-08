@@ -6,7 +6,7 @@ return {
       { "<C-Bslash>", "<cmd>ToggleTerm<cr>" },
     },
     opts = {
-      direction = "float",
+      direction = "horizontal",
       float_opts = {
         border = "single",
       },
