@@ -2,6 +2,10 @@ return {
   {
     "snacks.nvim",
     opts = {
+      bigfile = {
+        size = 1.5 * 1024 * 1024, -- 1.5MB
+        line_length = 10000, -- raise threshold so LaTeX paragraphs aren't flagged
+      },
       dashboard = {
         preset = {
           pick = function(cmd, opts)
